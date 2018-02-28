@@ -1,0 +1,34 @@
+{
+    "ret_msg": "登录成功",
+    "ret_code": 1,
+    "ret_data": {
+        "permissions": {
+            "id": 1,
+            "name": "功能菜单",
+            "component": "Home",
+            "path": "/",
+            "children": [
+                {
+                    "id": 43,
+                    "name": "系统设置",
+                    "path": "",
+                    "children": [
+                        {
+                            "id": 44,
+                            "name": "角色列表",
+                            "path": "/api/rolelist",
+                            "children": []
+                        },
+                        {
+                            "id": 41,
+                            "name": "用户列表",
+                            "path": "/api/users",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        "token": "NTgxMTg5MTViOWJjZTA1ZjQ2YzE0N2M1YTA1MzNkNTg2MzYyYTQwYw%3D%3D"
+    }
+}
